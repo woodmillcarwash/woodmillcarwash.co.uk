@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Woodmill Car Wash & Valeting Centre</title>
-<meta name="description" content="Woodmill Car Wash & Valeting Centre - Professional washes & valets. Mon–Sun 9am–6pm. Call 07305 995558. Follow @woodmill.carwash" />
+<meta name="description" content="Woodmill Car Wash & Valeting Centre - Professional car washes and valets in Dunfermline and surrounding areas. Mon–Sun 9am–6pm. Call 07305 995558. Follow @woodmill.carwash" />
 <style>
 :root{
 --bg: #0b0b0b;
@@ -32,24 +32,12 @@ nav a.cta{background:var(--accent);color:#071;font-weight:800}
 .btn.primary{background:var(--accent);color:#070707}
 .card{background:var(--card);padding:16px;border-radius:12px;margin-bottom:12px}
 h2{margin:0 0 8px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 table{width:100%;border-collapse:collapse}
 th,td{padding:10px;border-bottom:1px dashed rgba(255,255,255,0.03);text-align:left}
-label{display:block;margin:8px 0 6px;color:var(--muted)}
-input,select,textarea,button{padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--fg);outline:none}
-.two-col{display:grid;grid-template-columns:1fr 380px;gap:18px}
 .small{font-size:0.9rem;color:var(--muted)}
-.muted{color:var(--muted)}
 footer{margin-top:20px;border-top:1px solid rgba(255,255,255,0.03);padding-top:12px;display:flex;justify-content:space-between;flex-wrap:wrap}
-.center{display:flex;align-items:center;justify-content:center}
-.slot{padding:8px 10px;border-radius:8px;margin:6px 6px 0 0;display:inline-block;background:rgba(255,255,255,0.02);cursor:pointer}
-.slot.selected{background:var(--accent);color:#070707}
-.danger{color:#ff6b6b}
-.success{color:#7efc6b}
-.admin-link{font-size:0.9rem;opacity:0.8;text-decoration:underline;cursor:pointer}
-img.responsive{width:100%;border-radius:10px;margin-bottom:12px}
-@media (max-width:980px){.hero{grid-template-columns:1fr}.two-col{grid-template-columns:1fr}}
-@media (max-width:560px){.grid{grid-template-columns:1fr}.logo{width:48px;height:48px}}
+a.social{color:var(--accent);text-decoration:none;font-weight:700;margin-right:10px}
+@media (max-width:980px){.hero{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -64,14 +52,14 @@ img.responsive{width:100%;border-radius:10px;margin-bottom:12px}
 </a>
 <nav>
 <a href="#services">Services</a>
-<a href="#booking" class="cta">Book Now</a>
+<a href="#pricing" class="cta">View Prices</a>
 </nav>
 </header>
 
 <section class="hero">
 <div>
-<h2>Fast • Professional • Affordable</h2>
-<p class="small">Serving Dunfermline and surrounding areas. Walk-ins welcome — starting prices shown. Follow @woodmill.carwash on Instagram & TikTok.</p>
+<h2>Professional Car Washes & Valeting</h2>
+<p class="small">Serving Dunfermline and surrounding areas. Walk-ins welcome. Follow @woodmill.carwash on Instagram & TikTok.</p>
 
 <div style="margin-top:12px">
 <div class="chip">Open: Mon–Sun 09:00 — 18:00</div>
@@ -80,122 +68,79 @@ img.responsive{width:100%;border-radius:10px;margin-bottom:12px}
 </div>
 
 <div style="margin-top:14px">
-<a class="btn primary" href="#booking">Book a Valet / Wash</a>
-<a class="btn" href="#pricing" style="margin-left:8px">See Prices</a>
+<a class="btn primary" href="#pricing">View Prices</a>
 </div>
-
-<div style="margin-top:12px" class="small muted">Starting prices may increase depending on vehicle condition.</div>
 </div>
 
 <aside style="min-width:220px">
-<img src="https://images.unsplash.com/photo-1583267746427-9d4d5ad9c7db?auto=format&fit=crop&w=400&q=60" class="responsive" alt="Car wash exterior">
-<img src="https://images.unsplash.com/photo-1616627560704-8c267b9a5f32?auto=format&fit=crop&w=400&q=60" class="responsive" alt="Interior cleaning">
-
 <div class="card">
 <strong>Follow</strong>
-<div style="margin-top:8px" class="small muted">@woodmill.carwash (Instagram & TikTok)</div>
+<div style="margin-top:8px" class="small muted">@woodmill.carwash</div>
+<div style="margin-top:8px">
+<a href="https://www.instagram.com/woodmill.carwash" target="_blank" rel="noopener" class="social">Instagram</a>
+<a href="https://www.tiktok.com" target="_blank" rel="noopener" class="social">TikTok</a>
 </div>
-</aside>
-</section>
-
-<!-- SERVICES & PRICING -->
-<section id="pricing" style="margin-top:18px">
-<h2>Wash & Valet Packages</h2>
-<div class="card" style="margin-top:10px">
-<table>
-<thead>
-<tr><th>Service</th><th>Included</th><th>Starting price</th></tr>
-</thead>
-<tbody>
-<!-- Washes -->
-<tr><td>Number 1 Wash & Dry</td><td>Basic exterior hand wash & dry</td><td>£7.50</td></tr>
-<tr><td>Number 2 Wash, Dry & Wheels</td><td>Exterior wash, dry & wheel cleaning</td><td>£8.50</td></tr>
-<tr><td>Number 3 Wash, Dry, Wheels & Paint Protection Wax</td><td>Number 2 + paint protection wax</td><td>£9.50</td></tr>
-<tr><td>Number 4 Wash, Dry, Wheels, Tango Wet Polish & Tyre Shine</td><td>Full exterior polish with tyre shine</td><td>£13</td></tr>
-
-<!-- Valets -->
-<tr><td>Mini Valet</td><td>Number 3 wash, interior hoover, door shuts wiped, boot & plastics cleaned, plastic shiner, windows, tyre shine, air freshener, rubbish removed</td><td>£25</td></tr>
-<tr><td>Super Mini Valet</td><td>Mini + exterior hand polish; outside plastics dressed</td><td>£45</td></tr>
-<tr><td>Full Valet</td><td>Super Mini + seats/mats/carpet shampoo; steam clean</td><td>£75</td></tr>
-<tr><td>4x4 / Small vans</td><td>Starting prices for bigger vehicles</td><td>Mini £30 • Super Mini £55 • Full £90</td></tr>
-<tr><td>Van / 4x4 surcharge</td><td>Applies on top of listed starting prices</td><td>Small/4x4 +£1 • Medium +£2 • LWB +£3</td></tr>
-</tbody>
-</table>
-<div class="small muted" style="margin-top:8px">Extras: Tyre shine £2 • Air freshener £1 • Dog hair removal £10 • Hoover £6</div>
 </div>
-</section>
 
-<!-- BOOKING -->
-<section id="booking" style="margin-top:18px">
-<h2>Book a Wash or Valet</h2>
-<div class="two-col" style="margin-top:12px">
-<div>
 <div class="card">
-<form id="bookingForm" onsubmit="handleBooking(event)">
-<label for="b-name">Full name</label>
-<input id="b-name" required placeholder="Your name" />
-
-<label for="b-phone">Phone</label>
-<input id="b-phone" required placeholder="07305 995558 or your number" />
-
-<label for="b-service">Service</label>
-<select id="b-service" required></select>
-
-<label for="b-vehicle">Vehicle type</label>
-<select id="b-vehicle" onchange="updatePricePreview()" required>
-<option value="small">Small car</option>
-<option value="4x4">4x4 / SUV</option>
-<option value="smallvan">Small van</option>
-<option value="mediumvan">Medium van</option>
-<option value="lwbvan">LWB van</option>
-</select>
-
-<label for="b-date">Choose date</label>
-<input type="date" id="b-date" required onchange="renderSlots()" />
-
-<label>Available slots</label>
-<div id="slots" style="min-height:60px"></div>
-<input type="hidden" id="b-time" required />
-
-<label for="b-notes">Notes (dog hair, heavy soiling, preferred time)</label>
-<textarea id="b-notes" placeholder="Any special requests"></textarea>
-
-<div style="display:flex;gap:10px;align-items:center;margin-top:10px">
-<button class="btn primary" type="submit">Confirm Booking</button>
-<button type="button" class="btn" onclick="quickCall()">Call 07305 995558</button>
-</div>
-
-<div id="pricePreview" style="margin-top:10px" class="small muted"></div>
-<div id="formMsg" style="margin-top:8px" class="small muted"></div>
-</form>
-</div>
-
-<div class="card" style="margin-top:12px">
-<h3>How bookings work</h3>
-<p class="small muted">Select service, date, and a time slot. Bookings are held when you confirm. Customers pay at the car wash. Bookings are stored locally and emailed using your email app.</p>
-</div>
-</div>
-
-<aside>
-<div class="card">
-<h3>Location & Map</h3>
-<p class="muted">Woodmill Car Wash, Old filling station, Woodmill Road</p>
-<p class="small muted">Open Mon–Sun 9am–6pm</p>
+<h3>Location</h3>
+<p class="small muted">Woodmill Car Wash, Old filling station, Woodmill Road</p>
 <div style="margin-top:10px">
 <iframe
 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2232.2024807038505!2d-3.429859!3d56.065792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48890f764f22c3af%3A0x3d41e77d7f584438!2sWoodmill%20Rd%2C%20Dunfermline!5e0!3m2!1sen!2suk!4v1700000000000"
 width="100%" height="220" style="border:0;border-radius:10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
-<div style="margin-top:10px">
-<h4>Follow</h4>
-<div class="small muted">@woodmill.carwash</div>
-<div style="margin-top:8px">
-<a href="https://www.instagram.com/woodmill.carwash" target="_blank" rel="noopener" class="small muted">Instagram</a> &
-<a href="https://www.tiktok.com" target="_blank" rel="noopener" class="small muted">TikTok</a>
-</div>
-</div>
 </div>
 </aside>
+</section>
+
+<section id="services" style="margin-top:18px">
+<h2>Car Wash Services & Prices</h2>
+<div class="card" style="margin-top:10px">
+<table>
+<thead>
+<tr><th>Wash</th><th>Description</th><th>Price</th></tr>
+</thead>
+<tbody>
+<tr><td>Number 1</td><td>Wash and dry</td><td>£7.50</td></tr>
+<tr><td>Number 2</td><td>Wash, dry and wheels</td><td>£8.50</td></tr>
+<tr><td>Number 3</td><td>Wash, dry, wheels and paint protection wax</td><td>£9.50</td></tr>
+<tr><td>Number 4</td><td>Wash, dry, wheels, Tango wet polish and tyre shine</td><td>£13.00</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2 style="margin-top:20px">Valet Services & Prices</h2>
+<div class="card" style="margin-top:10px">
+<table>
+<thead>
+<tr><th>Valet</th><th>Description</th><th>Starting Price</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Mini Valet</td>
+<td>Number 3 wash, door shuts wiped, interior hoovered, mats & carpets cleaned, boot plastics cleaned, plastic shiner applied, windows cleaned inside & out, tyre shine applied, air freshener sprayed, rubbish removed.</td>
+<td>£25</td>
+</tr>
+<tr>
+<td>Super Mini Valet</td>
+<td>Mini Valet + exterior hand polish to professional standard, outside plastics dressed.</td>
+<td>£45</td>
+</tr>
+<tr>
+<td>Full Valet</td>
+<td>Super Mini Valet + seats, mats, and carpets shampooed and replenished, steam clean to remove germs and bacteria, outside plastics dressed.</td>
+<td>£75</td>
+</tr>
+<tr>
+<td>4x4 / Small Vans</td>
+<td>Mini Valet £30, Super Mini £55, Full £90</td>
+<td>Varies</td>
+</tr>
+</tbody>
+</table>
+<div class="small muted" style="margin-top:8px">Extras: Tyre shine £2 • Air freshener £1 • Dog hair removal £10 • Hoover £6</div>
+<div class="small muted" style="margin-top:4px">Prices are starting prices and may increase depending on vehicle condition.</div>
 </div>
 </section>
 
@@ -206,67 +151,12 @@ width="100%" height="220" style="border:0;border-radius:10px" allowfullscreen=""
 </div>
 <div style="text-align:right">
 <div class="small muted">Phone: <a href="tel:+447305995558" style="color:var(--fg);text-decoration:none">07305 995558</a></div>
+<div style="margin-top:4px">
+<a href="https://www.instagram.com/woodmill.carwash" target="_blank" rel="noopener" class="social">Instagram</a>
+<a href="https://www.tiktok.com" target="_blank" rel="noopener" class="social">TikTok</a>
+</div>
 </div>
 </footer>
 </div>
-
-<script>
-const CONFIG = {
-businessEmail: 'info@woodmillcarwash.example',
-phone: '07305 995558',
-opening: { openHour: 9, closeHour: 18 },
-adminPassword: 'woodmillAdmin2025'
-};
-
-const SERVICES = [
-{ id:'wash1', label:'Number 1 Wash & Dry', basePrice:7.5, duration:15 },
-{ id:'wash2', label:'Number 2 Wash, Dry & Wheels', basePrice:8.5, duration:20 },
-{ id:'wash3', label:'Number 3 Wash, Dry, Wheels & Paint Protection Wax', basePrice:9.5, duration:25 },
-{ id:'wash4', label:'Number 4 Wash, Dry, Wheels, Tango Wet Polish & Tyre Shine', basePrice:13, duration:30 }, // ✅ updated to £13
-
-{ id:'mini', label:'Mini Valet', basePrice:25, duration:45 },
-{ id:'supermini', label:'Super Mini Valet', basePrice:45, duration:60 },
-{ id:'full', label:'Full Valet', basePrice:75, duration:90 }
-];
-
-const VEHICLES = {
-'small': { label:'Small car', surcharge:0 },
-'4x4': { label:'4x4 / SUV', surcharge:0 },
-'smallvan': { label:'Small van', surcharge:1 },
-'mediumvan': { label:'Medium van', surcharge:2 },
-'lwbvan': { label:'LWB van', surcharge:3 }
-};
-
-const STARTING_BIG_VEHICLE_PRICES = {
-mini:30,
-supermini:55,
-full:90
-};
-
-const serviceSelect = document.getElementById('b-service');
-SERVICES.forEach(s=>{
-const opt = document.createElement('option');
-opt.value = s.id;
-opt.textContent = `${s.label} — £${s.basePrice}`;
-serviceSelect.appendChild(opt);
-});
-
-function updatePricePreview(){
-const sid = document.getElementById('b-service').value;
-const v = document.getElementById('b-vehicle').value;
-if(!sid) return;
-const s = SERVICES.find(x=>x.id===sid);
-let price = s.basePrice;
-if(v === '4x4' || v === 'smallvan') price = STARTING_BIG_VEHICLE_PRICES[sid] ?? price;
-const vs = VEHICLES[v] && VEHICLES[v].surcharge ? VEHICLES[v].surcharge : 0;
-price = price + vs;
-document.getElementById('pricePreview').textContent = `Estimated price: £${price} (${s.duration} mins). Surcharges for larger vehicles may apply depending on condition.`;
-}
-
-function quickCall(){window.location.href=`tel:${CONFIG.phone}`}
-
-document.getElementById('b-service').addEventListener('change',updatePricePreview);
-document.getElementById('b-vehicle').addEventListener('change',updatePricePreview);
-</script>
 </body>
 </html>
